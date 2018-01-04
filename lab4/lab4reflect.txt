@@ -1,0 +1,33 @@
+********************
+* Lab 4 Reflection *
+********************
+Name: Zihao Sang
+ID:   1773172
+
+
+-----------------------------------------------------------
+1) Ratio:  21:5
+-----------------------------------------------------------
+2) Reason:  The optimal disassembly code uses more registers
+to reduce the memory access.
+
+-----------------------------------------------------------
+3) "Faster" code
+   
+   Method 1: Write cache-friendly code. 
+   Example 1: Like the code in part 4. We have to organize
+the code so that it takes good advantages of cache.
+   
+   Method 2: Using appropriate data structure and algorithm
+   Example 2: Sorting an array. Merge sort and heap sort implement
+by a priority queue do the job better than naive algorithm 
+(like bubble sort).
+
+-----------------------------------------------------------
+4) Execution time
+
+   Pro: The program runs very fast 
+   
+   Con: It may take much more time to compile. 
+   
+-----------------------------------------------------------

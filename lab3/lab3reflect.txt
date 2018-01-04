@@ -1,0 +1,24 @@
+********************
+* Lab 3 Reflection *
+********************
+Name: Zihao Sang
+ID:  1773172 
+
+
+-----------------------------------------------------------
+1) Address:  0x0000000000400834
+-----------------------------------------------------------
+2) Explain:  The instruction reserves 0x40 hex (16 int) space
+in stack. So once we take the second argument to 16, it actually
+requires 17 int space which causes segfault.
+
+
+
+-----------------------------------------------------------
+3) Explain: I don't agree. We know that memory space is finite. 
+So it may happens that the memory is not enough to allocate 
+a big number of space. 
+
+
+
+-----------------------------------------------------------
